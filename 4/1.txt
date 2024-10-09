@@ -1,0 +1,8 @@
+we can add a configuration file bu running tsc --init this add a tsconfig.json file which has quite of lot of options to set
+check tsconfig.json 
+and there strict:true 
+
+there is any type which u can assign and that also is fine but that's a very generic fallback type any kind of value is allowed here 
+but u should as much as  clear  if u don't know or the type so explicit any is allowed if u don't know the type but implicit any isnot allowed 
+
+instead of running tsc filename u just write tsc it will run all the typescript file in that folder

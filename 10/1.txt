@@ -1,0 +1,24 @@
+now it's time to rename the file to typescript app.js->app.ts
+
+u get error in require, require method only available when we run our code to node  if we would want to run it on the browser  this doesn't exist now ts doesn't know where we want to run the plan 
+
+npm i --save-dev @types/node : @types packages provide typescript translations for js features  . they contain code that allows typescript to understand to certain library certain package 
+
+so after installing it we can use node js specific syntax in our ts files 
+and the error is gone in ur app.ts
+
+there are typescript translations available all majors js library always under this @types/package
+
+if i add the . here we don't get autocompletion there in app.ts so u have to install 
+npm i --save-dev @types/express
+still u don't get the suggestion/autocompletion because installing the @types is not enough for node or 3rd party library that we are importing like this 
+const express = require("express");
+the import syntax is the problem bydefault typescript is tuned for web apps running in the browser and there this import syntax will not be available 
+so u have to change the expection 
+add "moduleResolution":"node" below module:commonjs 
+or uncomment this line 
+
+import express from "express"; this is for client side , typescript accepts this but if u run in app.js u see it still use require 
+in nodejs bydefault u use require 
+
+and now u will see the autocompletion/autosuggestion is supporting

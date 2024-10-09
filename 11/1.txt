@@ -1,0 +1,4 @@
+i will create the models folder for defining  interface 
+and export it 
+importing the types package for body-parser
+npm i --save-dev @types/body-parser

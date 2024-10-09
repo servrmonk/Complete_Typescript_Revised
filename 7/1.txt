@@ -1,0 +1,10 @@
+we have some repeatation that u use same type more than one time ex in add u used union type two times u can optimize this with type alias
+typescript have build in types operator which exist does not exist in js 
+ 
+ with type u can create alias
+ ex type NumOrString = number | string;
+ so type alias can be very useful 
+
+ now why u use alias or interface what is the difference : if u just defining the structure of the object u can use either of the 2 using interface is bit . interface can however use to force classes to implement certain method or functionality 
+
+ if u would class or constructor just use class as a type or instantiate

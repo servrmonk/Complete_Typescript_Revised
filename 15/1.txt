@@ -1,0 +1,7 @@
+i only have routes folder u can split it u can make controller folder here one files is fine
+the more important and most annoying things is that i always have this js file next to them  the problem is that our actual source code in which we as the developer work  is just the typescript code  so therefore we have the extra file next to our source code and we will not working in js code we only need ts files and therefore i wonna make sure that the compile files go to the difference space so to achieve that we can go to tsconfig.json 
+there is outDir that is commented u uncomment it means where the js generated file will generated so i will specify ./dist all the file will go in the dist folder
+now the dist folder  will hold our js code /finished node app which we can run with node executable and the source code is outside of that
+may be i can seperate the source folder to have the clear source code src folder move the routes,models,app.ts
+
+and now in our tsconfig.json we can set our rootDir:"./src" root directory of input files  and the outdir is './dist/

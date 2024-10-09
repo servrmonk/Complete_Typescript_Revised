@@ -1,0 +1,16 @@
+now we will see that how typscript solve this
+
+Core Types
+Number type :integer,float
+String : All text value
+Boolean: t/f
+Object :{}/Specific object
+Array: [2,3,54]
+
+
+function add(num1:number, num2:number)  and if u pass the wrong value your ide start complaining
+you are very clear about ur data
+
+typescript is able to infer type and it's really smart regarding that it's able to find out which type of value will eventually will stored in this constant u just hover it because this code here
+
+as keyword: check app.ts how to use this 

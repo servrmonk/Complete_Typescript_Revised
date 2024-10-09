@@ -1,0 +1,4 @@
+tsc --init  to create tsconfig file there , and then npm init
+we are creating basic node typescript project
+npm i --express for installing express bodypareser
+npm i --save body-parser

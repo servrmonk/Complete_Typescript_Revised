@@ -1,0 +1,5 @@
+make index.html and app.ts
+ npm i -g typescript
+ and for run  tsc filename : this will convert the ts file to the js file and u import or use js file in index.html
+ and continue working in app.ts
+ tsc .\app.ts : will make a file app.js and include this in index.html and use app.ts

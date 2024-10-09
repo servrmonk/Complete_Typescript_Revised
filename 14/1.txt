@@ -1,0 +1,8 @@
+extra typescript features u can utilized in this
+params or body in the end that are type body 
+
+typescript don't know which kind of the data is coming in the coming request  but we as the developer know
+ we know how req.body/param will look like so check todos inside routes
+
+  const body = req.body as {text:string}
+type RequestBody = {text:string};

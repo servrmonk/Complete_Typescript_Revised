@@ -1,0 +1,4 @@
+working with string
+if i want strings and number type both only there we can use union type often code simply use 
+
+number | string and this is union types 

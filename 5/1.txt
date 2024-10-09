@@ -1,0 +1,4 @@
+Object and array types
+
+HTMLInputElement and HTMLButton element is obj type bc we have dom obj here in js 
+now we can also define our own obj type 

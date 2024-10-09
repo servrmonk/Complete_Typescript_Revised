@@ -1,0 +1,1 @@
+Typescript is a superset to javascript. it simply extends js . it's build on js and unlike js Typescript doesn't run on the browser instead Typescript has to be compiled in js so that it runs again 

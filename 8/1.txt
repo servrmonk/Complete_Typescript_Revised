@@ -1,0 +1,8 @@
+Generics: are the features that looks very confusing first but it makes us lot of sense . 
+actually in the code we do have Generics type here our 2 array types here
+a Generics type is simply a type that interact with another type and an array is great example it's a list of the data that's a core type 
+but it interact with another type the type of the data inside of the array
+array is the outer type but then u have all the element in the array ad the inner type
+
+u can't add <string>  everywhere build in object it needs to be an object that supports it  but the promise obj/constructor fun support Generics type
+Generics type can be tricky but they make a lot of sense and they give u extra type safety when working with more complex type or types that are simply connected to each other
